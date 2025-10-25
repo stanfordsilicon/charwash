@@ -1,12 +1,13 @@
 /* Reset page and set gradient background */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #ffffff, #b3d9ff);
-  position: relative;  /* needed for absolute positioning of child */
+  position: relative; /* needed for absolute positioning of child */
 }
 
 /* Align logo and text */
@@ -22,7 +23,6 @@ html, body {
   width: 100px; /* adjust as needed */
   height: auto; /* maintain aspect ratio */
 }
-
 
 /* Home page container */
 .home-container {
@@ -43,8 +43,8 @@ html, body {
 /* Heading */
 .home-container h1 {
   margin-bottom: 15px;
-  font-size: 3rem;       /* bigger title */
-  margin-top: 0;         /* move it up */
+  font-size: 3rem; /* bigger title */
+  margin-top: 0; /* move it up */
   font-weight: bold;
   color: #333;
 }
@@ -58,14 +58,14 @@ html, body {
 
 .language-input,
 .text-input {
-  font-size: 20px;       /* bigger input text */
+  font-size: 20px; /* bigger input text */
   padding: 16px;
   border-radius: 8px;
   border: 1px solid #ccc;
 }
 
 .text-input {
-  height: 220px;         /* taller textarea */
+  height: 220px; /* taller textarea */
   resize: vertical;
 }
 
@@ -73,12 +73,12 @@ html, body {
 .button-group {
   display: flex;
   justify-content: center; /* center buttons horizontally */
-  gap: 20px;               /* spacing between buttons */
+  gap: 20px; /* spacing between buttons */
   margin-top: 25px;
 }
 
 .btn {
-  padding: 14px 24px;     /* bigger buttons */
+  padding: 14px 24px; /* bigger buttons */
   font-size: 20px;
   border-radius: 8px;
   border: none;
@@ -94,22 +94,22 @@ html, body {
 .chars-box {
   margin-top: 10px;
   padding: 18px;
-  border: 2px solid #ccc;      /* neutral border instead of blue */
+  border: 2px solid #ccc; /* neutral border instead of blue */
   border-radius: 10px;
-  background-color: #f9f9f9;   /* light gray background */
+  background-color: #f9f9f9; /* light gray background */
   text-align: center;
 }
 
 /* Characters displayed inside the box */
 .chars-list {
-  font-size: 16px;    /* smaller text */
+  font-size: 16px; /* smaller text */
   font-weight: normal; /* not bold */
   word-wrap: break-word;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;           /* spacing between characters */
+  gap: 8px; /* spacing between characters */
 }
 
 /* Heading above the box */
@@ -128,5 +128,18 @@ html, body {
   background-color: #e26e2b; /* dark orange */
 }
 
+.floating-buttons {
+  margin: 10px;
+  margin-top: 20px;
+}
 
-
+.email-btn {
+  margin: 10px;
+  background-color: #cbcbcb;
+  border-radius: 8px;
+  color: #fff; /*#a2cfe2;*/
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  /*border: 1px solid #a2cfe2;*/
+}
